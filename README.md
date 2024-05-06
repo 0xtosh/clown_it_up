@@ -1,6 +1,9 @@
-Load the Extension
+# How to Load the Extension
 
-Navigate to chrome://extensions/, turn on Developer mode, click "Load unpacked", and select this extension directory.
+- Navigate to chrome://extensions/
+- Turn on Developer mode
+- Click "Load unpacked"
+- Select this extension directory
 
 
 
