@@ -10,7 +10,7 @@ const replaceTextOnPage = () => {
 
             if (node.nodeType === 3) { // Text node
                 let text = node.nodeValue;
-                const replacedText = text.replace(/cloud/gi, 'clown');
+                const replacedText = text.replace(/cloud/g, 'clown').replace(/Cloud/g, 'Clown');
 
                 if (replacedText !== text) {
                     element.replaceChild(document.createTextNode(replacedText), node);
